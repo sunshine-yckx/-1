@@ -1,3 +1,4 @@
+
 # File: .github/workflows/repo-sync.yml
 name: A🔄自动同步🔄A
 on:
@@ -33,7 +34,7 @@ jobs:
         uses: Yikun/hub-mirror-action@master
         if: env.dst_key
         with:
-          src: github/wuzhi01
+          src: github/wuzhi03
           dst: gitee/shuye72
           static_list: "MyActions"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
